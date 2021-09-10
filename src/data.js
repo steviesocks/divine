@@ -58,19 +58,4 @@ export const polygon = {
   ],
 };
 
-export const featureServiceLayerUrl = "https://services3.arcgis.com/cVS7R33dvMF3bt2i/arcgis/rest/services/my_points/FeatureServer/0";
-
-export const featureToAdd = {
-    attributes: {
-      id: 101,
-      name: 'editing test',
-      rating: '2'
-    },
-    geometry: {
-      x: -118.807,
-      y: 34.002,
-      spatialReference: {
-        wkid: 4326
-      }
-    }
-  };
+export const featureServiceLayerUrl = "https://services3.arcgis.com/cVS7R33dvMF3bt2i/arcgis/rest/services/uinta_highline/FeatureServer/0";
