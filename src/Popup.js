@@ -17,7 +17,7 @@ import { v4 as uuidv4 } from "uuid";
 import {
   addFeatures,
   // updateFeatures,
-  deleteFeatures,
+  // deleteFeatures,
 } from "@esri/arcgis-rest-feature-layer";
 
 const Popup = ({ pointRef, featureLayer, onClose, hasPoint }) => {
